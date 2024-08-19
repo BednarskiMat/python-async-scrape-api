@@ -104,7 +104,7 @@ user_agent_list = [
     ]
 
 def get_user_agent():
-    return random.choicne(user_agent_list)
+    return random.choice(user_agent_list)
 
 
 if __name__ == '__main__':
